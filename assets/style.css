@@ -84,14 +84,17 @@ main {
 .all-cards {
     display: flex;
     flex-direction: row;
-    position: relative;
+    flex-wrap: wrap;
     border-left: 2px solid black;
-    padding: 1%
-    
+    padding: 1% 
 }
 
-.work-side-works {
+/* .work-side-works {
+    min-height: 200px;
+
+} */
+/* .work-side-works {
     width: 80%;
-    position: relative;
-}
+    position: relative; */
+/* } */
 
