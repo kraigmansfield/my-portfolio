@@ -2,7 +2,11 @@
     margin: 0;
     border: 0;
     list-style-type: none;
+    background-color: black;
+    color: yellow;
+
 }
+
 
 header {
     background: linear-gradient(45deg, #FF2CAA 0%, #ffff01 100%);
@@ -32,16 +36,17 @@ main {
 .nav-item {
     padding: 2%;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid yellow;
 
 }
 
 .splash-image {
-    border-top: 2px solid black;
+    border-top: 2px solid yellow;
     background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     position:relative;
     height: 200px;
+    
 }
 
 .splash-image h2 {
@@ -50,8 +55,6 @@ main {
     position: absolute;
     bottom: 8px;;
     right: 16px;
-
-
 }
 
 
@@ -59,8 +62,8 @@ main {
     display: flex;
     flex-direction: row;
     position: relative;
-    border-right: 2px solid black;
-    padding: 1%
+    border-right: 2px solid yellow;
+    padding: 1%;
     
 }
 
@@ -71,7 +74,7 @@ main {
 }
 .about-me aside {
     padding: 1%;
-    border-left: 2px solid black;
+    border-left: 2px solid yellow;
 
 }
 
@@ -80,21 +83,55 @@ main {
     padding: 1%;
 
 }
+.work-showcase {
+    width: 80%;
+    padding: 1%;
+    margin: 1%;
 
+}
 .all-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-left: 2px solid black;
     padding: 1% 
+    margin: 1%
+}
+.work-title {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-right: 2px solid yellow;
+    padding: 1%
+    margin: 1%
+}
+.work-side {
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.work-side {
+    width: 40%
 }
 
-/* .work-side-works {
-    min-height: 200px;
+.image-header {
+    bottom:1%
+}
 
-} */
-/* .work-side-works {
-    width: 80%;
-    position: relative; */
-/* } */
+.contact-me {
+    background: linear-gradient(45deg, #FF2CAA 0%, #ffff01 100%);
+    display: flex;
+    height 150px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me-nav {
+
+}
 
