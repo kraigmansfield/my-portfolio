@@ -61,14 +61,10 @@ main {
     display: flex;
     flex-direction: row;
     position: relative;
-    border-right: 2px solid yellow;
     padding: 1%;
+    border: 10px solid darkblue;
+    margin: 15px;
     
-}
-
-.about-me-title .work-title {
-    border-right: 2px solid yellow;
-    padding: 1%;
 }
 
 
@@ -99,14 +95,12 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 1%;
-    margin: 1%;
-    border: 1% solid darkblue;
+    border: 10px solid darkblue;
 }
 .work-title {
     display: flex;
     flex-direction: row;
     position: relative;
-    border-right: 2px solid yellow;
     padding: 1%
     margin: 1%
 }
@@ -115,6 +109,9 @@ main {
     min-height: 200px;
     align-items: center;
     justify-content: center;
+    padding: 1%;
+    margin: 1%;
+    border: 10px solid darkblue;
 
 
 
